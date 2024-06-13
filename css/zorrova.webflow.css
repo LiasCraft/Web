@@ -1242,10 +1242,10 @@ img {
 
 .hero {
   background-color: var(--light-grey);
-  background-image: url('../images/1.-Blue-Zorrova-3.png'), url('../images/Ellipse.svg'), url('../images/Z.svg'), url('../images/A-element.svg');
-  background-position: 42% -21%, 50% 190%, 0 -30%, 82vw 130%;
+  background-image: url('../images/2.-Beige-Zorrova-1.png'), url('../images/Ellipse.svg'), url('../images/Z.svg'), url('../images/A-element.svg');
+  background-position: 50% 0, 50% 190%, 0 -30%, 82vw 130%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: auto 124vh, auto 89vh, auto 60vh, auto 70vh;
+  background-size: auto 130vh, auto 89vh, auto 60vh, auto 70vh;
   height: 100vh;
 }
 
@@ -1420,10 +1420,10 @@ img {
 }
 
 .image-about.short {
-  background-image: url('../images/zorrova-photo.png'), url('../images/Ellipse.svg');
-  background-position: 60% 0, 50% 0;
+  background-image: url('../images/2.-Beige-Zorrova-4a.png'), url('../images/Ellipse.svg');
+  background-position: 50% 0, 50% 0;
   background-repeat: no-repeat, no-repeat;
-  background-size: auto 200vh, auto 90vh;
+  background-size: auto 150vh, auto 90vh;
 }
 
 .highlight {
