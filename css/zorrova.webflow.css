@@ -1243,9 +1243,9 @@ img {
 .hero {
   background-color: var(--light-grey);
   background-image: url('../images/1.-Blue-Zorrova-3.png'), url('../images/Ellipse.svg'), url('../images/Z.svg'), url('../images/A-element.svg');
-  background-position: 42% -21%, 50% 190%, 0 -30%, 82vw 130%;
+  background-position: 44% -21%, 50% 190%, 0 -30%, 82vw 130%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: auto 124vh, auto 89vh, auto 60vh, auto 70vh;
+  background-size: auto 121vh, auto 89vh, auto 60vh, auto 70vh;
   height: 100vh;
 }
 
