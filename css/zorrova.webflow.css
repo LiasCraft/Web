@@ -1048,6 +1048,7 @@ img {
 }
 
 .span-text {
+  color: var(--light-grey);
   display: inline-block;
 }
 
@@ -1846,7 +1847,7 @@ img {
   padding-top: 110px;
 }
 
-.lottie-animation {
+._1-lottie {
   z-index: 0;
   opacity: 1;
   object-fit: cover;
@@ -2116,6 +2117,20 @@ img {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+._2-lottie, ._3-lottie, ._5-lottie, ._4-lottie {
+  z-index: 0;
+  opacity: 1;
+  object-fit: cover;
+  flex: 0 auto;
+  width: 178vh;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
 }
 
 @media screen and (max-width: 991px) {
@@ -2414,7 +2429,7 @@ img {
     margin-right: 0;
   }
 
-  .lottie-animation {
+  ._1-lottie {
     object-fit: cover;
     top: 0%;
     bottom: 0%;
@@ -2518,6 +2533,14 @@ img {
     margin-right: 410px;
     top: 1%;
     left: auto;
+  }
+
+  ._2-lottie, ._3-lottie, ._5-lottie, ._4-lottie {
+    object-fit: cover;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: auto;
   }
 }
 
@@ -2632,7 +2655,7 @@ img {
   }
 
   .span-text {
-    font-size: 11vw;
+    font-size: 10vw;
   }
 
   .blue-text {
@@ -3057,7 +3080,7 @@ img {
   }
 
   .span-text {
-    font-size: 30vw;
+    font-size: 10vw;
     font-weight: 700;
   }
 
@@ -3256,7 +3279,7 @@ img {
     line-height: 130%;
   }
 
-  .lottie-animation {
+  ._1-lottie {
     position: absolute;
     top: 0%;
     bottom: 0%;
@@ -3301,6 +3324,12 @@ img {
   ._5-personal-a {
     height: 115%;
     margin-right: 90px;
+  }
+
+  ._2-lottie, ._3-lottie, ._5-lottie, ._4-lottie {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
   }
 }
 
